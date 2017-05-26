@@ -20,34 +20,4 @@ class Genre < ActiveRecord::Base
     arr
   end
 
-# self.artists
-# variable.each do |m|
-#   m("name")
-# end
-# end
-#
-#
-#     thing = self.artists
-#     thing.each do |x|
-#       arr << x.select(:name).distinct
-#     end
-#
-#     select name from genres.artists
-#
-#
-# Client.select(:name).distinct
-# query = Client.select(:name).distinct
-# # => Returns unique names
-# query.distinct(false)
-# # => Returns all names, even if there are duplicates
-#
-#     User.all.each do |user|
-#   NewsMailer.weekly(user).deliver_now
-#
-#
-#   Contact.all(:select => "DISTINCT name")
-
-
-   # return an array of strings containing every musician's name
-
 end
